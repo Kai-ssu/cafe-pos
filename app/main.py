@@ -111,8 +111,6 @@ class OrderApp(UserControl):
             width=200,
             scroll= ScrollMode.ALWAYS
         )
-
-        #self.prev_order = 
         
         self.prev_order = TextField(label="")
 
@@ -230,7 +228,6 @@ class OrderApp(UserControl):
                                             self.capp_button,
                                             self.latt_button
                                         ],
-                                        #width=300
                                     ),
                                     Row(
                                         controls=[
@@ -670,8 +667,6 @@ def main(page: Page):
     page.title = "XKP POS"
     page.theme_mode = ThemeMode.LIGHT
     page.bgcolor = '#DACCBA'
-    #page.auto_scroll=False
-    #page.scroll = ScrollMode.HIDDEN
     page.appbar = AppBar(
         title=Text(
             "XKP Cafe", 
