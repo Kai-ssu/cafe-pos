@@ -664,12 +664,12 @@ class OrderApp(UserControl):
         
 
 def main(page: Page):
-    page.title = "XKP POS"
+    page.title = "POS"
     page.theme_mode = ThemeMode.LIGHT
     page.bgcolor = '#DACCBA'
     page.appbar = AppBar(
         title=Text(
-            "XKP Cafe", 
+            "Cafe", 
             weight=FontWeight.BOLD,
             color= colors.WHITE
         ),
@@ -689,13 +689,4 @@ def main(page: Page):
 
 
 #flet.app(target=main)
-
-import os
-
-DEFAULT_FLET_PATH = ''  # or 'ui/path'
-DEFAULT_FLET_PORT = 8000
-
-# flet.app(port=8000, target=main, view=AppView.WEB_BROWSER)
-flet_path = os.getenv("FLET_PATH", DEFAULT_FLET_PATH)
-flet_port = int(os.getenv("FLET_PORT", DEFAULT_FLET_PORT))
-flet.app(name=flet_path, target=main, view=None, port=flet_port)
+flet.app(port=8000, target=main, view=AppView.WEB_BROWSER)
