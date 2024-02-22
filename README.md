@@ -6,8 +6,11 @@ Made this project for practice.
 
 ## Running the App
 
-**1. Installing flet module**
+**1. Install flet module**
 `pip install flet`
+
+**2. Install Pandas**
+`pip install pandas`
 
 **2. Download this repository.**
 
