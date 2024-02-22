@@ -4,10 +4,14 @@ A point-of-sale system for a coffee shop using Python and Flet.
 Made this project for practice.
 
 
-**Installing flet module**
+## Running the App
 
+**1. Installing flet module**
 `pip install flet`
 
-**Run the program**
+**2. Download this repository.**
 
+**3. Open Command Prompt/Terminal and go to the 'app' folder.**
+
+**4. Run the program**
 `python main.py`
