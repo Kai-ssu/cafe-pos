@@ -9,8 +9,8 @@ Made this project for practice.
 **1. Install flet module**
 `pip install flet`
 
-**2. Install Pandas**
-`pip install pandas`
+**2. Install Pandas and Pyarrow**
+`pip install pandas pyarrow`
 
 **2. Download this repository.**
 
